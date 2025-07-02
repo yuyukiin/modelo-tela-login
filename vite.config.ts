@@ -4,7 +4,7 @@ import path from "path"
 import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
-  base: '/modelo-tela-login/', 
+  //base: '/modelo-tela-login/', // <- ESSENCIAL PARA FUNCIONAR NO GITHUB PAGES
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

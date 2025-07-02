@@ -18,29 +18,41 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
-import helmetBro from '../assets/astronaut-helmet-bro.svg'
-import outerSpaceAmico from '../assets/outer-space-amico.svg'
-import helmbetRafiki from '../assets/astronaut-helmet-rafiki.svg'
+import helmetBro from '../assets/imgs/astronaut-helmet-bro.svg'
+import outerSpaceAmico from '../assets/imgs/outer-space-amico.svg'
+import helmbetRafiki from '../assets/imgs/astronaut-helmet-rafiki.svg'
 
 export default function Home() {
   return (
-    <main className="h-screen flex w-full">
-      <div className="bg-primary-foreground w-full h-full flex p-16">
-        <Carousel className="w-full h-full">
+    <main className="h-screen grid lg:grid-cols-2">
+      <div className="hidden bg-primary-foreground w-full lg:flex lg:justify-center lg:items-center p-4 md:p-16">
+        <Carousel className="w-full">
           <CarouselContent>
             <CarouselItem>
-              <div className="flex aspect-square bg-background rouended-lg p-8">
-                <img src={helmetBro} alt="Capacete" />
+              <div className="flex aspect-square bg-background rounded-lg p-4 md:p-8 justify-center items-center">
+                <img
+                  src={helmetBro}
+                  alt="Capacete"
+                  className="max-w-[600px] h-auto"
+                />
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="flex aspect-square bg-background rouended-lg p-8">
-                <img src={outerSpaceAmico} alt="Space" />
+              <div className="flex aspect-square bg-background rounded-lg p-4 md:p-8 justify-center items-center">
+                <img
+                  src={outerSpaceAmico}
+                  alt="Space"
+                  className="max-w-[600px] h-auto"
+                />
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="flex aspect-square bg-background rouended-lg p-8">
-                <img src={helmbetRafiki} alt="Capacete 2" />
+              <div className="flex aspect-square bg-background rounded-lg p-4 md:p-8 justify-center items-center">
+                <img
+                  src={helmbetRafiki}
+                  alt="Capacete 2"
+                  className="max-w-[600px] h-auto"
+                />
               </div>
             </CarouselItem>
           </CarouselContent>
@@ -49,8 +61,8 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <section className="flex items-center justify-center bg-background h-full max-w-3xl w-full p-4">
-        <Card className="w-full max-w-md">
+      <section className="flex items-center justify-center bg-background p-4">
+        <Card className="w-full sm:w-[400px]">
           <CardHeader className="text-2xl font-semibold tracking-tighter">
             <CardTitle>Entre com sua Conta</CardTitle>
             <CardDescription>
