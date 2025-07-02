@@ -7,18 +7,18 @@ Uma interface de login moderna, responsiva e estilizada com temática espacial. 
 
 ## 🧪 Tecnologias Utilizadas
 
-- **React (com Vite)** ⚛️  
-- **TypeScript** 🟦  
-- **React Router Dom (v6.4+)** 🔁  
-- **Tailwind CSS** 💨  
-- **React Icons** 🧩  
-- Componentização do shadcn (botões, inputs, separadores, etc.) ♦
-- **SVG Animations** 🪐  
+- **React (com Vite)** 
+- **TypeScript** 
+- **React Router Dom (v6.4+)** 
+- **Tailwind CSS**   
+- **React Icons**  
+- Componentização do shadcn (botões, inputs, separadores, etc.) 
+- **SVG Animations**   
 
 ---
 
 ```md
-🗂 Estrutura do Projeto
+Estrutura do Projeto
 
 src/
 ├── assets/             # Imagens e ilustrações SVG
@@ -37,7 +37,7 @@ src/
 ```
 ---
 
-## 📷 Tela de Login
+## Tela de Login
 
 ![Preview da Tela de Login](./img/tela_login.png)
 
@@ -61,7 +61,7 @@ npm run dev
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - Login com e-mail e senha  
 - Botão de login com GitHub  
@@ -71,7 +71,7 @@ npm run dev
 
 ---
 
-## 🛠 TODO (Ideias Futuras)
+## (Ideias Futuras)
 
 - Integração com backend real (API)  
 - Validação de formulários usando **Zod** ou **Yup**  
@@ -81,10 +81,9 @@ npm run dev
 
 ---
 
-## 🧑‍🚀 Feito por
+## Feito por
 
-Desenvolvido com 💜 por **Yuri Alexander**
+Desenvolvido por **Yuri Alexander**
 
 ---
 
-```
