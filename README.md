@@ -1,69 +1,90 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Space Login
 
-Currently, two official plugins are available:
+Uma interface de login moderna, responsiva e estilizada com temática espacial. Desenvolvida com foco em usabilidade, design elegante e tecnologias modernas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧪 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React (com Vite)** ⚛️  
+- **TypeScript** 🟦  
+- **React Router Dom (v6.4+)** 🔁  
+- **Tailwind CSS** 💨  
+- **React Icons** 🧩  
+- Componentização do shadcn (botões, inputs, separadores, etc.) ♦
+- **SVG Animations** 🪐  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+```md
+🗂 Estrutura do Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+src/
+├── assets/             # Imagens e ilustrações SVG
+├── components/
+│   └── ui/             # Componentes reutilizáveis como Button, Card, Input...
+├── enums/              # Enumerações tipadas
+├── helpers/            # Funções auxiliares
+├── interfaces/         # Tipagens e interfaces
+├── layouts/            # Layouts reutilizáveis com <Outlet />
+├── lib/                # Bibliotecas ou configurações globais
+├── pages/              # Páginas principais (Home, About, etc.)
+├── routers/            # Configuração de rotas com createBrowserRouter
+├── services/           # Comunicação com APIs externas
+├── styles/             # Estilos globais
+│   └── globals.css
+```
+---
+
+## 📷 Tela de Login
+
+![Preview da Tela de Login](./img/tela_login.png)
+
+---
+
+## 📦 Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/yuyukiin/modelo-tela-login.git
+
+# Acesse a pasta do projeto
+cd seu-repo
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✅ Funcionalidades
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Login com e-mail e senha  
+- Botão de login com GitHub  
+- Design responsivo para dispositivos móveis e desktop  
+- Componentes reutilizáveis para facilitar manutenção  
+- Navegação por rotas modernas com React Router Dom  
+
+---
+
+## 🛠 TODO (Ideias Futuras)
+
+- Integração com backend real (API)  
+- Validação de formulários usando **Zod** ou **Yup**  
+- Animações avançadas com **Framer Motion**  
+- Tela de cadastro de novos usuários  
+- Recuperação de senha  
+
+---
+
+## 🧑‍🚀 Feito por
+
+Desenvolvido com 💜 por **Yuri Alexander**
+
+---
+
 ```
