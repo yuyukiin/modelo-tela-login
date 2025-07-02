@@ -1,0 +1,1 @@
+import{j as o,L as t}from"./index-Dbm7EsBN.js";function i(){return o.jsxs("div",{children:[o.jsx("p",{children:"About"}),o.jsx(t,{to:"/",children:"Home"}),o.jsx(t,{to:"/about/info",children:"Info"})]})}export{i as default};
