@@ -1,4 +1,4 @@
-```md
+
 # 🚀 Space Login
 
 Uma interface de login moderna, responsiva e estilizada com temática espacial. Desenvolvida com foco em usabilidade, design elegante e tecnologias modernas.
@@ -12,11 +12,12 @@ Uma interface de login moderna, responsiva e estilizada com temática espacial. 
 - **React Router Dom (v6.4+)** 🔁  
 - **Tailwind CSS** 💨  
 - **React Icons** 🧩  
-- Componentização reutilizável (botões, inputs, separadores, etc.)  
+- Componentização do shadcn (botões, inputs, separadores, etc.) ♦
 - **SVG Animations** 🪐  
 
 ---
 
+```md
 ## 🗂 Estrutura do Projeto
 
 src/
@@ -33,7 +34,7 @@ src/
 ├── services/           # Comunicação com APIs externas
 ├── styles/             # Estilos globais
 │   └── globals.css
-
+```
 ---
 
 ## 📷 Tela de Login
@@ -46,7 +47,7 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/yuyukiin/modelo-tela-login.git
 
 # Acesse a pasta do projeto
 cd seu-repo
@@ -82,10 +83,8 @@ npm run dev
 
 ## 🧑‍🚀 Feito por
 
-Desenvolvido com 💜 por **Seu Nome**
+Desenvolvido com 💜 por **Yuri Alexander**
 
 ---
 
-Se quiser me ajudar ou sugerir melhorias, fique à vontade para abrir issues ou pull requests!  
-Obrigado por visitar este projeto! 🚀
 ```
