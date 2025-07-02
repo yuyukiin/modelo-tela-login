@@ -18,7 +18,7 @@ Uma interface de login moderna, responsiva e estilizada com temática espacial. 
 ---
 
 ```md
-## 🗂 Estrutura do Projeto
+🗂 Estrutura do Projeto
 
 src/
 ├── assets/             # Imagens e ilustrações SVG
@@ -39,7 +39,7 @@ src/
 
 ## 📷 Tela de Login
 
-![Preview da Tela de Login](./src/assets/login-preview.svg)
+![Preview da Tela de Login](./img/tela_login.png)
 
 ---
 
